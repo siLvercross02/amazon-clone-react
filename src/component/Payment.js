@@ -35,6 +35,7 @@ function Payment() {
         }
 
         getClientSecret();
+
     }, [basket])
 
     console.log('Cart is >>>>', clientSecret);
